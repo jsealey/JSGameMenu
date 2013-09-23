@@ -10,8 +10,8 @@ Demo project included.
 ## Install
 - copy the **JSGameMenu** class into your project
 - copy **pause**, **play**, **replay**, and **exit** images into your project
-- import `JSGameMenu.h` in your class
-- add `@property (nonatomic, strong) JSGameMenu *menu;` to your class header
+- import `JSGameMenu.h` in your SKScene class
+- add `@property (nonatomic, strong) JSGameMenu *menu;` to your SKScene class header
 - initialize the menu in your init method
 
 <pre>
