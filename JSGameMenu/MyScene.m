@@ -27,6 +27,9 @@
                     SKTransition *transition = [SKTransition doorsCloseHorizontalWithDuration:0.5];
                     [self.scene.view presentScene:ms transition:transition];
                 }];
+        
+        _menu = [[JSGameMenu alloc] initWithSize:size withReplayHandler:^{NSLog(@"Replay Callback");} withExitHandler:^{NSLog(@"Exit Callback");}];
+        
         [self addChild:_menu];
         
     }
